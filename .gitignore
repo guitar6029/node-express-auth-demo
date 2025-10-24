@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+debug.log
+error.log
+
+# Coverage / test output
+coverage/
+.nyc_output/
+
+# Build output (if you ever transpile or build)
+dist/
+build/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Optional: lock files (if you prefer to keep only one)
+# package-lock.json
+# yarn.lock
+
+# Thunder Client collections (optional)
+thunder-tests/
